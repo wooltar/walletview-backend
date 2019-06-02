@@ -1,0 +1,32 @@
+{
+  "name": "wallet-view-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/app.js",
+    "test": "mocha ./tests/*.spec.js --exit"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
+    "helmet": "^3.18.0",
+    "http": "^0.0.0",
+    "mocha": "^6.1.4",
+    "net": "^1.0.2",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0",
+    "web3": "^1.0.0-beta.52"
+  }
+}
