@@ -16,7 +16,7 @@ const controller =  require('./controllers/account');
 // Add helmet package in order to secure express
 const helmet = require('helmet')
 
-const port= 9000;
+const port= process.env.PORT || 9000;
 
  
 // Add cors middleware in order to allow just the origin domain
