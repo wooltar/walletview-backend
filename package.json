@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node api/app.js",
-    "test": "mocha ./tests/*.spec.js --exit",
-    "postinstall": "node patch.js"
+    "test": "mocha ./tests/*.spec.js --exit"
+    
   },
   "engines": {
     "node": "8.x"

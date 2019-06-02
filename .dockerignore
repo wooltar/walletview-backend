@@ -1,0 +1,15 @@
+# Ignore .vscode library folder
+.vscode
+
+# Ignore git folder
+.git
+.gitignore
+
+# Ignore node_modules
+node_modules
+
+# Ignore extra files
+npm-debug.log
+README.md
+LICENSE
+
