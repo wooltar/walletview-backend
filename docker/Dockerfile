@@ -26,7 +26,7 @@ WORKDIR $NODEPATH
 COPY . $NODEPATH
 
 # Set argument for docker container name
-ARG CONTAINER_NAME=phones-api
+ARG CONTAINER_NAME=backend
 
 # Set volume
 VOLUME $NODEPATH
