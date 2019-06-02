@@ -21,7 +21,7 @@ const port= process.env.PORT || 9000;
  
 // Add cors middleware in order to allow just the origin domain
 // for security reasons
-const whitelist = [ 'http://localhost', 'http://localhost:4200', 'http://locahost:5000' ]
+const whitelist = [ 'http://localhost', 'http://localhost:4200', 'http://locahost:5000', 'https://walletview.herokuapp.com' ]
 
 // Add cors middleware in order to allow just the origin domain
 // for security reasons
